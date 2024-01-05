@@ -1,4 +1,4 @@
-class UrlApi {
+class UrlAPI {
   static const String userApi = 'api/User/';
   static const String loginUser = '$userApi/login';
   static const String registerUser = '$userApi/register';
