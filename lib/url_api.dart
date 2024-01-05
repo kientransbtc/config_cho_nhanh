@@ -1,5 +1,5 @@
 class UrlAPI {
-  static const String baseUrl = "http://dev.cn.api.main.hpt360.xyz/";
+  static const String baseUrl = "http://dev.cn.api.main.hpt360.xyz";
   static const String userApi = '$baseUrl/api/User';
   static const String loginUser = '$userApi/login';
   static const String registerUser = '$userApi/register';
