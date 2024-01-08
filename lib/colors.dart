@@ -76,3 +76,9 @@ class LineBorderColor {
   static const Color borderDefault = Color(0xffE0E0E0);
   static const Color borderHover = Color(0xffBABABA);
 }
+
+class OrtherColor {
+  static const Color dialog = Color(0xffeaebeb);
+
+  static const Color borderLine = Color(0xffc7c7c8);
+}
