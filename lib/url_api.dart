@@ -5,4 +5,6 @@ class UrlAPI {
   static const String registerUser = '$userApi/register';
   static const String otp = '$userApi/otp';
   static const String verifyOtp = '$userApi/verify';
+  static const String getUserInfor = '$userApi/get';
+  static const String updateUserInfor = '$userApi/change_profile';
 }
