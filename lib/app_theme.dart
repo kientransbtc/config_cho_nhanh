@@ -20,7 +20,9 @@ ThemeData theme() {
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0,
-      iconTheme: IconThemeData(color: IconColor.information),
+     
+      
+      iconTheme: IconThemeData(color: IconColor.information,),
       titleTextStyle: TextStyle(
           fontWeight: FontWeight.w700,
           height: 1.172,
@@ -30,16 +32,22 @@ ThemeData theme() {
     buttonTheme: const ButtonThemeData(
       buttonColor: ButtonColor.primary,
     ),
+    
+    tabBarTheme:const TabBarTheme(
+      indicatorColor: ButtonColor.primary,
+      labelPadding: EdgeInsets.only(bottom: 12),
+      labelStyle: TextStyle(
+          fontFamily: 'Roboto', fontSize: 18, fontWeight: FontWeight.w700),
+      dividerColor: ButtonColor.error,
+    ),
     checkboxTheme: CheckboxThemeData(
-        fillColor: const MaterialStatePropertyAll(MainColor.main),
         checkColor: const MaterialStatePropertyAll(Colors.white),
-
-        shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(2))
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(2))),
     inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: BackgroundColor.lightBlue,
-        contentPadding: const EdgeInsets.symmetric(horizontal: 12),
+        contentPadding:
+            const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
         hintStyle: const TextStyle(
             fontSize: 16,
             color: TextColor.t500,
@@ -78,7 +86,6 @@ TextTheme textTheme() {
       fontSize: 32,
       fontWeight: FontWeight.w700,
       color: TextColor.t900,
-      
     ),
     headlineMedium: TextStyle(
       fontFamily: 'Roboto',

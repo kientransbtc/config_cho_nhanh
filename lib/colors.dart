@@ -81,4 +81,6 @@ class OrtherColor {
   static const Color dialog = Color(0xffeaebeb);
 
   static const Color borderLine = Color(0xffc7c7c8);
+
+  static const Color greyScale = Color(0xff212121);
 }
