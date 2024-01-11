@@ -4,6 +4,7 @@ import 'colors.dart';
 
 ThemeData theme() {
   return ThemeData(
+    disabledColor: TextColor.t900,
     primaryColor: ButtonColor.primary,
     scaffoldBackgroundColor: Colors.white,
     colorScheme: ColorScheme.fromSeed(seedColor: ButtonColor.primary),
@@ -33,9 +34,7 @@ ThemeData theme() {
     checkboxTheme: CheckboxThemeData(
         fillColor: const MaterialStatePropertyAll(MainColor.main),
         checkColor: const MaterialStatePropertyAll(Colors.white),
-
-        shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(2))
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(2))),
     inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: BackgroundColor.lightBlue,
@@ -78,7 +77,6 @@ TextTheme textTheme() {
       fontSize: 32,
       fontWeight: FontWeight.w700,
       color: TextColor.t900,
-      
     ),
     headlineMedium: TextStyle(
       fontFamily: 'Roboto',
