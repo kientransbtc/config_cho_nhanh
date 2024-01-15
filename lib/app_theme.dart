@@ -21,9 +21,9 @@ ThemeData theme() {
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0,
-     
-      
-      iconTheme: IconThemeData(color: IconColor.information,),
+      iconTheme: IconThemeData(
+        color: IconColor.information,
+      ),
       titleTextStyle: TextStyle(
           fontWeight: FontWeight.w700,
           height: 1.172,
@@ -33,8 +33,7 @@ ThemeData theme() {
     buttonTheme: const ButtonThemeData(
       buttonColor: ButtonColor.primary,
     ),
-    
-    tabBarTheme:const TabBarTheme(
+    tabBarTheme: const TabBarTheme(
       indicatorColor: ButtonColor.primary,
       labelPadding: EdgeInsets.only(bottom: 12),
       labelStyle: TextStyle(
