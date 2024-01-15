@@ -11,4 +11,6 @@ class UrlAPI {
   static const String updateUserInfor = '$userApi/change_profile';
   //address
   static const String getCity = '$geoApi/list_city';
+  static const String getDistrict = '$geoApi/list_district';
+  static const String getWard = '$geoApi/list_ward';
 }
