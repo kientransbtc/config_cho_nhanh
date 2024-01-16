@@ -37,6 +37,8 @@ class IconColor {
   static const Color warning = Color(0xffFFD303);
   static const Color error = Color(0xffF75555);
   static const Color disable = Color(0xffBDBDBD);
+
+  static const Color contactPerson = Color(0xff008B44);
 }
 
 class BackgroundColor {
